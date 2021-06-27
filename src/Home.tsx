@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Registration from './Registration'
+
 const home = () => {
     return (
       <div>
         <p>Home</p>
-        <Link to="/dashboard">Dashboard</Link>
+        <Registration></Registration>
       </div>
     )
   };
